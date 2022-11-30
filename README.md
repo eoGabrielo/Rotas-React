@@ -4,15 +4,14 @@ Esse projeto é de rotas, aonde podemos direcionar o usuário a outra página ou
 
 # COMPONENTES DA ROTA
 
-É preciso criar um componente Rotas para gerenciar as rotas.
-instalar biblioteca de ROTAS: npm install react-router-dom
+É preciso criar um componente Rotas para gerenciar as rotas e instalar biblioteca de ROTAS: npm install react-router-dom
 
 #Para criar as rotas usamos as seguintes tag's:
 
-<BrowserRouter/> -> Armazena as rotas
-<Routes/> -> Seleciona um elemento para exibir na tela baseado na url
-<Route/> -> Componente que associa a rota ao componente
-<Link/> -> Componente que permite navegar para outra página(componente)
+- <BrowserRouter/> -> Armazena as rotas
+- <Routes/> -> Seleciona um elemento para exibir na tela baseado na url
+- <Route/> -> Componente que associa a rota ao componente
+- <Link/> -> Componente que permite navegar para outra página(componente)
 
-Precisamos chamar essa tag's da biblioteca "react-router-dom"
-import {BrowserRouter, Router, Route} from "react-router-dom"
+- Precisamos chamar essas tags da biblioteca "react-router-dom"
+- import {BrowserRouter, Router, Route} from "react-router-dom"
